@@ -78,11 +78,16 @@ The project uses a dataset containing various attributes of loan applicants, suc
 5. **Total Loans by Contract Types:**
     <ul><li>Provides a breakdown of loan distribution by contract type.</li></ul>
 ## Sample Graphs
-  <li><strong>Bar Chart:</strong> Loan approval rate by flags (e.g., FLAG_WORK_PHONE, FLAG_EMAIL).</li>
-  <li><strong>Stacked Bar Chart:</strong> Loan approvals by education level and region rating.</li>
+  <li><strong>Area Chart:</strong> Loan approval rate by flags (e.g., FLAG_WORK_PHONE, FLAG_EMAIL).</li>
+   <img src="https://github.com/user-attachments/assets/5a38abb4-e0f1-4e15-8108-41f3b60210c2"></img>
+  <li><strong>Line & Clustered Column Chart:</strong> Loan approvals by education level and region rating.</li>
+   <img src="https://github.com/user-attachments/assets/f587037e-0a82-4a21-98b8-c133da8666fa"></img>
   <li><strong>Pie Chart:</strong> Loan type distribution.</li>
-  <li><strong>Scatter Plot:</strong> Average age vs. approval rate.</li>
-  <img src="https://github.com/user-attachments/assets/ddbe46db-0fda-4935-b642-67cd562634c4"></img>
+  <li><strong>Donut Chart:</strong> Average age vs. approval rate.</li>
+   <img src="https://github.com/user-attachments/assets/e2e9a6c6-67cb-4347-9479-9abc1f438464"></img>
+ 
+ 
+ 
   
 ## Key Insights
 1. **Higher approval rates** for customers with complete contact information (e.g., reachable mobile and email provided).
