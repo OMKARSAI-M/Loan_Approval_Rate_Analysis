@@ -1,6 +1,6 @@
 # Loan_Approval_Rate_Analysis
 This project focuses on analyzing loan approval rates based on various customer attributes, such as demographic factors, flags indicating provided contact information, and socioeconomic parameters. It is designed to provide insights into factors influencing loan approval rates, ultimately assisting loan approval departments in improving decision-making and operational efficiency.
-<img src="https://github.com/user-attachments/assets/ddbe46db-0fda-4935-b642-67cd562634c4" alt="Dashboard_image"></img>
+</br><img src="https://github.com/user-attachments/assets/ddbe46db-0fda-4935-b642-67cd562634c4" alt="Dashboard_image"></img>
 ## Table of Contents
 <ul>
   <li>Overview</li>
@@ -52,6 +52,7 @@ The project also includes Power BI dashboards that visually demonstrate the key 
 ## Data Sources
 The project uses a dataset containing various attributes of loan applicants, such as:
 <ul>
+  <li>Dataset from Kaggle: <a  href="https://www.kaggle.com/datasets/shreshthvashisht/bank-loan-case-study-dataset?select=previous_application.csv">Bank Loan Case Study Dataset</a>, providing comprehensive loan application data for analysis.</li>
   <li>Flags (e.g., work phone, mobile, email).</li>
   <li>Demographic details (e.g., gender, occupation type, family size).</li>
   <li>Loan-related details (e.g., loan type, interest rates, loan amount).</li>
@@ -61,7 +62,6 @@ The project uses a dataset containing various attributes of loan applicants, suc
 ## Tools and Technologies Used
 <ul>
   <li>Power BI: For creating interactive dashboards and visualizations.</li>
-  <li>Python: For data preprocessing and exploratory data analysis (EDA).</li>
   <li>GitHub: For version control and portfolio showcase.</li>
 </ul>
 
@@ -78,14 +78,16 @@ The project uses a dataset containing various attributes of loan applicants, suc
 5. **Total Loans by Contract Types:**
     <ul><li>Provides a breakdown of loan distribution by contract type.</li></ul>
 ## Sample Graphs
-  <li><strong>Area Chart:</strong> Loan approval rate by flags (e.g., FLAG_WORK_PHONE, FLAG_EMAIL).</li>
+<ul>
+ </br><li><strong>Area Chart:</strong> Loan approval rate by flags (e.g., FLAG_WORK_PHONE, FLAG_EMAIL).</li>
    <img src="https://github.com/user-attachments/assets/5a38abb4-e0f1-4e15-8108-41f3b60210c2"></img>
-  <li><strong>Line & Clustered Column Chart:</strong> Loan approvals by education level and region rating.</li>
+  </br><li><strong>Line & Clustered Column Chart:</strong> Loan approvals by education level and region rating.</li>
    <img src="https://github.com/user-attachments/assets/f587037e-0a82-4a21-98b8-c133da8666fa"></img>
-  <li><strong>Pie Chart:</strong> Loan type distribution.</li>
-  <li><strong>Donut Chart:</strong> Average age vs. approval rate.</li>
+  </br><li><strong>Pie Chart:</strong> Loan type distribution.</li>
+  <img src="https://github.com/user-attachments/assets/ef6cb51d-c3f4-4f55-b810-19ab2a1912e9"></img>
+  </br><li><strong>Donut Chart:</strong> Average age vs. approval rate.</li>
    <img src="https://github.com/user-attachments/assets/e2e9a6c6-67cb-4347-9479-9abc1f438464"></img>
- 
+</ul>
  
  
   
@@ -98,8 +100,7 @@ The project uses a dataset containing various attributes of loan applicants, suc
 ## How to Use
 ### Pre-requisites
 1. Install Power BI Desktop for viewing the .pbit file.
-2. Ensure Python is installed with necessary libraries (pandas, matplotlib, etc.).
-3. Clone the repository and explore the code and visualizations.
+2. Clone the repository and explore the code and visualizations.
 
 ### Steps
 1. **Clone the repository:**
@@ -107,7 +108,6 @@ The project uses a dataset containing various attributes of loan applicants, suc
 git clone https://github.com/yourusername/Loan_Approval_Rate_Analysis.git
 ```
 2. Open the Power BI dashboard (Loan_GIt.pbit) to view interactive visualizations.
-3. Run the Python scripts for data preprocessing and custom visualizations.
 
 ## Future Enhancements
 1. Machine Learning: Integrate predictive models to estimate loan approval chances.
