@@ -1,5 +1,6 @@
 # Loan_Approval_Rate_Analysis
 This project focuses on analyzing loan approval rates based on various customer attributes, such as demographic factors, flags indicating provided contact information, and socioeconomic parameters. It is designed to provide insights into factors influencing loan approval rates, ultimately assisting loan approval departments in improving decision-making and operational efficiency.
+<img src="https://github.com/user-attachments/assets/ddbe46db-0fda-4935-b642-67cd562634c4" alt="Dashboard_image"></img>
 ## Table of Contents
 <ul>
   <li>Overview</li>
@@ -81,6 +82,7 @@ The project uses a dataset containing various attributes of loan applicants, suc
   <li><strong>Stacked Bar Chart:</strong> Loan approvals by education level and region rating.</li>
   <li><strong>Pie Chart:</strong> Loan type distribution.</li>
   <li><strong>Scatter Plot:</strong> Average age vs. approval rate.</li>
+  <img src="https://github.com/user-attachments/assets/ddbe46db-0fda-4935-b642-67cd562634c4"></img>
   
 ## Key Insights
 1. **Higher approval rates** for customers with complete contact information (e.g., reachable mobile and email provided).
